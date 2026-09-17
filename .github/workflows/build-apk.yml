@@ -16,3 +16,4 @@ jobs:
         with:
           name: bati-apk
           path: android/app/build/outputs/apk/release/app-release.apk
+
