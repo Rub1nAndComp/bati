@@ -6,6 +6,7 @@ import de from "./locales/de.json";
 import en from "./locales/en.json";
 import es from "./locales/es.json";
 import fr from "./locales/fr.json";
+import ru from "./locales/ru.json";
 
 // Typed on every app language: a language added to `APP_LANGUAGES` without its file fails here.
 const resources: Localized<{ translation: typeof en }> = {
@@ -13,6 +14,7 @@ const resources: Localized<{ translation: typeof en }> = {
   fr: { translation: fr },
   de: { translation: de },
   es: { translation: es },
+  ru: { translation: ru },
 };
 
 i18n
